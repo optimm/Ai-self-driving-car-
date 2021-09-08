@@ -1,7 +1,7 @@
 import pygame
 pygame.init()
 window = pygame.display.set_mode((1200, 400))
-track = pygame.image.load('track6.png')
+track = pygame.image.load('track5.png')
 car = pygame.image.load('tesla.png')
 car = pygame.transform.scale(car, (30, 60))
 car_x = 155
@@ -57,4 +57,5 @@ while drive:
     window.blit(track, (0, 0))
     window.blit(car, (car_x, car_y))
     pygame.draw.circle(window, (0, 255, 0), (cam_x, cam_y), 5, 5)
+    pygame.display.set_caption('Self driving car')
     pygame.display.update()
