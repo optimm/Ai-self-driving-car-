@@ -7,7 +7,7 @@
 
 ## To run this on your system
 
-- Install python on your system - https://www.python.org/downloads/ (or according to your system and os and you like)
+- Install python on your system - https://www.python.org/downloads/ (or according to your system and os as you like)
 - Install pip
 - Install Pygame
 - Run the file main.py
